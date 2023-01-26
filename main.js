@@ -34,7 +34,7 @@ document.getElementById("burung").onclick = function() {
    setTimeout(sembunyikanGambar, 500);
 
    // 3. setelah 5x tembakan, hitung total waktunya
-   if (counter < 5) {
+   if (counter < 10) {
       setTimeout(tampilkanGambar, 600);
       counter++;
    } else {
